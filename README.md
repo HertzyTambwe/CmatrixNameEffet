@@ -16,3 +16,5 @@ Ce script affiche un effet "Matrix" dans le terminal avec ton nom qui apparaît 
 - Utiliser la bibliothèque curses pour gérer l'affichage en mode terminal.
 - Générer des caractères aléatoires qui descendent comme dans The Matrix.
 - Insérer ton nom de manière aléatoire parmi les caractères pour le personnaliser.
+
+![Texte alternatif](./images/image.png)

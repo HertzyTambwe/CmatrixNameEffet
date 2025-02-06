@@ -26,3 +26,13 @@ def matrix_effect(stdscr, name="Hertzy"):
         if stdscr.getch() == 27:  # Quitter avec Échap
             break
 
+def main():
+    curses.wrapper(lambda stdscr: setup_curses(stdscr, "Hertzy"))
+
+def setup_curses(stdscr, name):
+    curses.start_color()
+    curses.init_pair(1, curses.COLOR_GREEN, curses.COLOR_BLACK)
+    matrix_effect(stdscr, name)
+
+if __name__ == "__main__":
+    main()
